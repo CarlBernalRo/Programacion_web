@@ -47,7 +47,10 @@ nav ul li a:hover{
   color: #219ebc;
 }
 
-
+nav ul li.active a{
+  background: #023047;
+  color: #219ebc;
+}
 
 main{
   background-image: url(../img/estudia-tu-bachillerato.jpg);
@@ -85,4 +88,39 @@ footer{
   padding: 0 30px; /* Padding solo lateral */
   margin-top: 0; /* Eliminamos margen superior por defecto */
   line-height: 1.6;
+}
+
+/*AQUÍ HACEMOS LOS ESTILOS DE LA PÁGINA nosotros.html*/
+
+main.nosotros {
+  background-image: none;
+  background: linear-gradient(45deg,#ffbe00 0%,#fb8500 100%);
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+main.nosotros::after{
+  content:"";
+  height: 100vh;
+  width: 100%;
+  display: block;
+  background-image: url(../img/nosotros-estudiante-de-bachillerato.webp);
+  background-size: cover;
+  position: absolute;
+  right: -65px;
+}
+
+
+main.nosotros .contenido{
+  z-index: 1;  /* posicionar el texto hacia adelante */
+}
+
+main.nosotros h2{
+  width: 57%;
+  color: #023047;
+  font-size: 60px;
+  font-family: "Cal Sans", sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding: 50px 30px; /* Padding solo lateral */
 }
