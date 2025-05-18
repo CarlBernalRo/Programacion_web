@@ -16,7 +16,7 @@ header{
     padding: 30px 20px;
     color: #FFFFFF;
     font-family: "Cal Sans", sans-serif;
-    font-size: 8em;
+    font-size: 6em;
     text-align: center;
     position: sticky;
 }
@@ -193,4 +193,79 @@ main.contacto ul{
 .formulario legend{
   font-size: 18px;
   font-weight: bold;
+	background: #F4E4BA;
+	max-width: 400px;
+	width: 400px;
+	min-width: 400px;
+	padding: 30px;
+}
+
+.mainContenido-estudiante {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.mainContenido-estudiante h1{
+  font-size: 30px;
+  font-family: "Cal Sans", sans-serif;
+  background-color:#b7dbebcc;
+  padding: 20px;
+
+}
+.mainContenido-estudiante p{
+  font-size: 18x;
+  font-family: "Open Sans", sans-serif;
+  background-color:#b7dbebcc;
+  padding: 20px;
+
+}
+
+article {
+    margin-right: 20px;
+    padding: 10% 30px;
+    background-image: url(../img/estudiantes-universidad-bachillerato-educacion.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+aside{
+	background: #F4E4BA;
+	max-width: 400px;
+	width: 400px;
+	min-width: 400px;
+	padding: 30px;
+}
+
+aside img{
+	max-width: 100%;
+	border: 3px solid #fff;
+
+	
+}
+
+.margenimg{
+	margin-bottom: 30px;
+
+}
+.enlaces-practicas a{
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2;
+	font-size: 1.8vw;
+	font-weight: 900;
+}
+.enlaces-practicas ul{
+	list-style: none;
+}
+.enlaces-practicas a:hover{
+	color:#d220a8;
+	background: #fff;
+	padding: 10px 60px;
+	border-radius: 20px;
+}
+
+.enlaces-practicas h2{
+  font-family: "Open Sans", sans-serif;
+	font-size: 2vw;
+	color: #4613ac;
 }
