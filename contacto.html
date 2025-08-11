@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Institución académica Berna/contacto</title>
+</head>
+<body>
+    <div class="contenedor">
+    <!--Header de la página-->
+    <header>
+        Institución Académica Berna
+    </header>
+    <!--menú de nav-->
+    <nav>
+        <ul>
+            <li >
+                <a href="index.html"rel="noreferrer">Inicio</a>
+            </li>
+            <li >
+                <a href="nosotros.html"rel="noreferrer">Nosotros</a>
+            </li>
+            <li>
+                <a href="programas.html"rel="noreferrer">Programas</a>
+            </li>
+            <li>
+                <a href="soyestudiante.html"rel="noreferrer">Soy estudiante</a>
+            </li>
+            <li class="active">
+                <a href="contacto.html"rel="contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!--main-->
+    <main class="margen-inferior contacto">
+        <div class="contenido">
+            <div>
+                <h2>📌 Preguntas Frecuentes (FAQ)</h2>
+                <details>
+                    <summary>¿Cuál es el horario de atención?</summary>
+                    <ul>
+                        <li>Nuestro horario administrativo es de lunes a viernes de 7:00 a.m. a 3:00 p.m. Para atención vía telefónica o correo electrónico, puedes contactarnos en ese mismo horario.</li>
+                    </ul>
+                </details>
+                <details open>
+                    <summary> ¿Qué documentos necesito para la inscripción?</summary>
+                    <ul>
+                        <li>Copia del acta de nacimiento.</li>
+                        <li>Certificado de escolaridad anterior.</li>
+                        <li>CURP del estudiante.</li>
+                        <li>4 fotografías tamaño infantil.</li>
+                        <li>Comprobante de domicilio.</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>¿Ofrecen becas o descuentos?</summary>
+                    <ul>
+                        <li> Sí, contamos con programas de becas por excelencia académica, deportiva o situación socioeconómica. Solicita informes en la administración para conocer los requisitos.</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>¿Cuál es el método de pago de las colegiaturas?</summary>
+                    <ul>
+                        <li>Aceptamos pagos en efectivo, transferencia bancaria o tarjeta de crédito/débito. Los pagos se realizan mensualmente antes del día 10.</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>¿Tienen actividades extracurriculares?</summary>
+                    <ul>
+                        <li>¡Claro! Ofrecemos talleres de robótica, arte, deportes, música y más. Consulta nuestra sección de "Vida Estudiantil" para detalles.</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>¿Cómo puedo agendar una cita para conocer la institución?</summary>
+                    <ul>
+                        <li>Puedes llenar el formulario de contacto (abajo) o llamarnos al [número de teléfono]. Realizamos tours guiados previa cita.</li>
+                    </ul>
+                </details>
+
+            </div>
+            <Section class="formulario">
+            <h2 >Formulario de contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                    <label >Name:
+                    <input type="text"name="name"placeholder="Digite su nombre completo"required pattern="[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+">
+                    </label>
+                    </div>
+                    <br>
+                    <div>
+                    <label >Email:
+                    <input type="email"name="email"placeholder="angelo.casas@gmail.es"required>
+                    </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label >Teléfono móvil:
+                            <input type="tel"name="phone"placeholder="Ej: 314 332 6979" required pattern="[0-9]{9}">
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label >Fecha de envío:
+                            <input type="date"name="fecha"placeholder="angelo.casas@gmail.es"required>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Otros</legend>
+                    <div>
+                        <label>¿Por qué quieres ser contactado?</legend>
+                            <input list="opciones">
+                            <datalist id="opciones">
+                            <option value="Dudas"></option>
+                            <option value="Felicitaciones"></option>
+                            <option value="Recomendaciones"></option>
+                            <option value="Agradecimientos"></option>
+                            </datalist>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje opcional:</label>
+                        <textarea id="mensaje" name="mensaje" rows="2" required></textarea>
+                        <br>
+                        <label>¿Aceptas términos y condiciones?</label>
+                        <input type="checkbox" name="terms" id="terms" required>
+                    </div>
+                            
+                </fieldset>
+                <button>Enviar formulario </button>
+            </form>
+            </Section>
+        </div>
+
+    </main>
+    <!--Section: Etiquetas de contenido-->
+        <!--cambio de prueba -->
+
+    <section class="margen-inferior">
+    </section>
+    <!--Footer de la página-->
+        <!--Footer de la página-->
+            <!--Footer de la página-->
+
+
+    <footer class="pie-de-pagina">
+        <small>Copyright © 2025. Todos los derechos reservados.</small>
+        <br>
+        <small>Siguenos en nuestras redes</small>
+    </footer>
+    </div>
+</body>
+</html>
