@@ -16,7 +16,7 @@ header{
     padding: 30px 20px;
     color: #FFFFFF;
     font-family: "Cal Sans", sans-serif;
-    font-size: 8em;
+    font-size: 6em;
     text-align: center;
     position: sticky;
 }
@@ -57,15 +57,14 @@ nav ul li.active a{
 main{
   background-image: url(../img/estudia-tu-bachillerato.jpg);
   background-position: center;
-  background-size: cover; 
-  background-position-y: top;
-  min-height: 100vh;
+ background-position: top;
+
 }
 
 main h2 {
   width: 57%;
   color: #023047;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Cal Sans", sans-serif;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   padding: 100px 30px; /* Padding solo lateral */
@@ -85,7 +84,7 @@ footer{
 
 .descripcion {
   width: 57%;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   padding: 0 30px; /* Padding solo lateral */
   margin-top: 0; /* Eliminamos margen superior por defecto */
@@ -193,4 +192,179 @@ main.contacto ul{
 .formulario legend{
   font-size: 18px;
   font-weight: bold;
+	padding: 30px;
 }
+
+/* Estilos para página de soy estudiante */
+
+.mainContenido-estudiante {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
+.mainContenido-estudiante h1{
+  font-size: 30px;
+  font-family: "Cal Sans", sans-serif;
+  padding: 20px;
+
+}
+.mainContenido-estudiante p{
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+
+}
+
+article {
+    margin-right: 20px;
+    padding: 10% 30px;
+    background-image: url(../img/estudiantes-universidad-bachillerato-educacion.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.caja-est{
+background-color:#eeeeee9c;
+}
+aside{
+	background: #F4E4BA;
+	max-width: 400px;
+	width: 400px;
+	min-width: 400px;
+	padding: 30px;
+}
+
+aside img{
+	max-width: 100%;
+	border: 3px solid #fff;
+}
+
+.margenimg{
+	margin-bottom: 30px;
+}
+
+.enlaces-estudiante a{
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2;
+	font-size: 1.8vw;
+	font-weight: 900;
+}
+.enlaces-estudiante ul{
+	list-style: none;
+}
+.enlaces-estudiante a:hover{
+	color:#d220a8;
+	background: #fff;
+	padding: 10px 60px;
+	border-radius: 20px;
+}
+
+.enlaces-estudiante h2{
+  font-family: "Open Sans", sans-serif;
+	font-size: 2vw;
+	color: #4613ac;
+}
+
+.boton {
+  background-color: #4c53af; /* Verde */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Cal Sans", sans-serif;
+}
+
+.boton:hover {
+  background-color: #4a1ba1; /* Verde oscuro al pasar el mouse */
+}
+
+/* Estilos para página de programas*/
+.contenedor-prog{
+    background: #ffffff;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.contenedor-prog h1{
+  font-family: "Cal Sans", sans-serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.contenedor-prog p{
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.parent{
+  display: flex;
+}
+.item{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(228, 241, 250);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.item:hover{
+  background-color: rgb(255, 253, 223);
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+ 
+}
+.item h2 {
+  color: #333;   
+  font-size: 30px;
+  font-family: "Cal Sans", sans-serif;
+  margin-bottom: 10px;
+
+}
+
+.contenedor-video-texto {
+  display: flex; 
+  align-items: center;  
+  margin: 40px auto; 
+  max-width: 1200px;  
+  font-family: "Cal Sans", sans-serif;
+}
+
+.video-container {
+  flex: 1;      
+}
+
+.video-container iframe {
+  width: 100%; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.texto-container {
+  flex: 1;  
+  margin: 30px;
+}
+
+.texto-container h2 {
+  color: #333;   
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.texto-container p {
+  color: #666;        
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.cuerpo-pag{
+  align-items: center;  
+  margin: 40px auto; 
+  max-width: 1200px;  
+}
+
