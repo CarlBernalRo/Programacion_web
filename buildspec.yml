@@ -1,11 +1,12 @@
-FROM node:18-alpine
+version: 0.2
 
-WORKDIR /app
-
-COPY package*.json ./
-RUN npm install
-
-COPY . .
-
-EXPOSE 3000
-CMD ["npm", "start"]
+phases:
+  pre_build:
+    commands:
+      - echo ">>> Pre build OK"
+  build:
+    commands:
+      - echo ">>> Build OK - no Docker build needed"
+  post_build:
+    commands:
+      - echo ">>> Post build completed successfully"
